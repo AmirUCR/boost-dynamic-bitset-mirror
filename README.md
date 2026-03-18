@@ -6,6 +6,7 @@ This repo is a dependency for ALLEGRO. Steps to reproduce:
 1. Unzip it `tar -xvzf boost_1_90_0.tar.gz `
 1. `cd boost_1_90_0/`
 1. `chmod +x ./bootstrap.sh`
+1. `./bootstrap.sh`
 1. `./b2 tools/bcp`
 1. Then, run BCP, (https://www.boost.org/doc/libs/1_40_0/tools/bcp/bcp.html) to "rip" out the dynamic bitset header-only library
     ```
